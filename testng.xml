@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Xero Test Automation Test Suite">
+
+<listeners>
+		<listener class-name="com.xero.util.ExtentReportListener" />
+</listeners>
+	
+	<test name="Xero App Test Cases">
+		<classes>
+			<class name="com.xero.testcases.HomePageTest"></class>
+			<class name="com.xero.testcases.LoginPageTest"></class>
+			<class name="com.xero.testcases.DashboardPageTest"></class>
+			<class name="com.xero.testcases.AccountsPageTest"></class>
+		</classes>
+	</test>
+</suite>
